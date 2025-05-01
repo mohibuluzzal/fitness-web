@@ -1,0 +1,124 @@
+/* embed google font
+================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* share style
+============== */
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Inter", sans-serif;
+    max-width: 1200px;
+    background-color: black;
+}
+:root{
+    --text-14: 0.8rem;
+    --text-16: 1rem;
+    --text-18: 1.12rem;
+    --text-24: 1.5rem;
+    --text-20: 1.25rem;
+    --text-28: 1.75rem;
+    --text-32: 2rem;
+    --text-36: 2.25rem;
+    --text-40: 2.5rem;
+    --text-48: 3rem;
+    --text-70: 4.37rem;
+    --text-78: 4.87rem;
+    --font-400: 400;
+    --font-600: 600;
+    --font-800: 800;
+    --font-900: 900;
+    --text-orange: #E6533C;
+    --text-white: white;
+    --text-rgba: rgba(255, 255, 255, 0.5);
+    --bg-orange: #E6533C;
+    --bg-rgba: rgba(255, 255, 255, 0.1);
+}
+.text-14{
+    font-size: var(--text-14);
+}
+.text-16{
+    font-size: var(--text-16);
+}
+.text-18{
+    font-size: var(--text-18);
+}
+.text-20{
+    font-size: var(--text-20);
+}
+.text-24{
+    font-size: var(--text-24);
+}
+.text-28{
+    font-size: var(--text-28);
+}
+.text-32{
+    font-size: var(--text-32);
+}
+.text-36{
+    font-size: var(--text-36);
+}
+.text-40{
+    font-size: var(--text-40);
+}
+.text-48{
+    font-size: var(--text-48);
+}
+.text-70{
+    font-size: var(--text-70);
+}
+.text-78{
+    font-size: var(--text-78);
+}
+.font-400{
+    font-weight: var(--font-400);
+}
+.font-600{
+    font-weight: var(--font-600);
+}
+.font-800{
+    font-weight: var(--font-800);
+}
+.font-900{
+    font-weight: var(--font-900);
+}
+.text-orange{
+    color: var(--text-orange);
+}
+.text-white{
+    color: var(--text-white);
+}
+.text-rgba{
+    color: var(--text-rgba);
+}
+.bg-orange{
+    background-color: var(--bg-orange);
+}
+.bg-rgba{
+    background-color: var(--bg-rgba);
+}
+
+/* nav bar section styles
+====================== */
+.nav-container{
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-second{
+    display: flex;
+    list-style: none;
+    gap: 47px;
+    align-items: center;
+    
+}
+.nav-item a{
+    text-decoration: none;
+}
+#home-button{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    
+}
