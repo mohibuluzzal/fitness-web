@@ -115,6 +115,9 @@ body{
 }
 /* nav bar section styles
 ====================== */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -146,32 +149,39 @@ body{
 ======================= */
 #special{
     font-family: var(--font-miama);
+    font-weight: var(--font-400);
 }
 .get-body-container{
     display: flex;
-    justify-content: space-between;
-    border: 2px solid greenyellow;
-    height: 580px;
-    gap: 50px;
-    margin-top: 30px;
+    margin-top: 32px;
 }
-.get-body-left{
-    width: 50%;
+.get-left{
+    width: 60%;
+    border: 2px solid white;
 }
-.get-buttons{
-    margin-top: 28px;
+.get-left p{
+    line-height: 24px;
 }
-.get-body-right{
-    width: 50%;
-    position: relative;
-}
-
-#trans-button{
+#transparent-button{
+    border-radius: 42px;
+    background: transparent;
+    padding: 12px 20px 12px 20px;
+    border: none;
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 42px;
-    padding: 12px 20px 12px 20px;
-    background-color: transparent;
+}
+.buttons{
+    margin-top: 28px;
+}
+.buttons button{
+    margin-right: 14px;
+}
+.get-right{
+    width: 40%;
+    border: 2px solid rgb(11, 138, 19);
+}
+.get-img{
+    position: relative;
 }
 .float-button{
     box-sizing: border-box;
@@ -179,33 +189,57 @@ body{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    width: 180px;
-    height: 90px;
+    width: 170px;
+    height: 80px;
+    line-height: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 5px;
-    
-   }
-   .float-button p{
-    margin-bottom: 10px;
-   }
-   #circle{
-    background: #E6533C;
+}
+.float-button p{
+    margin-bottom: 20px;
+}
+#float-first{
+    position: absolute;
+    top: 40%;
+    right: 11%;
+}
+#float-second{
+    position: absolute;
+    bottom: 1%;
+    right: 34%;
+}
+#circle{
     width: 25px;
     height: 25px;
     border-radius: 50%;
+    background: #E6533C;
     position: absolute;
-    bottom: 17%;
-    left: -13%;
-   }
-   #float-first{
-    position: absolute;
-    top: 22%;
-    left: 40%;
-   }
-   #float-second{
-    position: absolute;
-    bottom: 12%;
-    left: -15%;
-   }
+    bottom: 33%;
+    right: 77%;
+}
+
+/* change sections style
+===================== */
+.change-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.change-img-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.img-card img{
+    border-radius: 50%;
+}
+.img-card p{
+    /* padding-top: 5px; */
+    line-height: 15px;
+    
+}

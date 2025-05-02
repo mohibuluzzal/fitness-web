@@ -19,33 +19,39 @@
     }
 
     /* get body section styles
-    ======================== */
+    ======================= */
     .get-body-container{
+        padding-left: 15px;
+        padding-right: 15px;
         flex-direction: column;
+    }
+    .get-left{
+        width: 100%;
+    }
+    .get-right{
+        width: 100%;
+    }
+    .get-img{
+        text-align: center;   
+    }
+    #float-first{
+        top: 168%;
+        right: 15%;
+    }
+    #float-second{
+        top: 225%;
+        right: 50%;
+    }
+    
+    /* change sections style
+    ===================== */
+    .change-container{
         padding-left: 15px;
         padding-right: 15px;
     }
-    .get-body-left{
-        width: 100%;
+    .change-img-card-container{
+        grid-template-columns: repeat(1, 1fr);
     }
-    .get-body-right{
-        width: 100%;
-    }
-    .get-body-right img{
-        width: 100%;
-    }
-    #float-first{
-        top: 10%;
-        left: 55%;
-       }
-       #float-second{
-        bottom: 41%;
-        left: 7%;
-       }
-       #circle{
-        bottom: 44.5%;
-        left: 9.5%;
-       }
 }
 
 /* for medium screen
@@ -59,32 +65,35 @@
         padding-right: 15px;
     }
 
-    /* get body section styles
-    ======================== */
+/* get body section styles
+    ======================= */
     .get-body-container{
-        flex-direction: column;
         padding-left: 15px;
         padding-right: 15px;
+        flex-direction: column;
     }
-    .get-body-left{
+    .get-left{
         width: 100%;
     }
-    .get-body-right{
+    .get-right{
         width: 100%;
     }
-    .get-body-right img{
-        width: 100%;
+    .get-img{
+        text-align: center;   
     }
     #float-first{
-        top: 10%;
-        left: 55%;
-       }
-       #float-second{
-        bottom: 41%;
-        left: 7%;
-       }
-       #circle{
-        bottom: 44.5%;
-        left: 9.5%;
-       }
+        top: 176%;
+        right: 22%;
+    }
+    #float-second{
+        top: 225%;
+        right: 50%;
+    }
+
+    /* change sections style
+    ===================== */
+      .change-img-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
 }
