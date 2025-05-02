@@ -1,0 +1,90 @@
+/* for small screen
+================= */
+@media screen and (max-width: 576px) {
+
+    /* nav section styles
+    ================= */
+    .nav-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-second{
+        border: none;
+    }
+    .nav-second li{
+        display: none;
+    }
+    .nav-second i{
+        display: block;
+    }
+
+    /* get body section styles
+    ======================== */
+    .get-body-container{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .get-body-left{
+        width: 100%;
+    }
+    .get-body-right{
+        width: 100%;
+    }
+    .get-body-right img{
+        width: 100%;
+    }
+    #float-first{
+        top: 10%;
+        left: 55%;
+       }
+       #float-second{
+        bottom: 41%;
+        left: 7%;
+       }
+       #circle{
+        bottom: 44.5%;
+        left: 9.5%;
+       }
+}
+
+/* for medium screen
+================== */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+     /* nav section styles
+    ================= */
+    .nav-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* get body section styles
+    ======================== */
+    .get-body-container{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .get-body-left{
+        width: 100%;
+    }
+    .get-body-right{
+        width: 100%;
+    }
+    .get-body-right img{
+        width: 100%;
+    }
+    #float-first{
+        top: 10%;
+        left: 55%;
+       }
+       #float-second{
+        bottom: 41%;
+        left: 7%;
+       }
+       #circle{
+        bottom: 44.5%;
+        left: 9.5%;
+       }
+}
