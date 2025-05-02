@@ -157,7 +157,6 @@ header{
 }
 .get-left{
     width: 60%;
-    border: 2px solid white;
 }
 .get-left p{
     line-height: 24px;
@@ -178,7 +177,6 @@ header{
 }
 .get-right{
     width: 40%;
-    border: 2px solid rgb(11, 138, 19);
 }
 .get-img{
     position: relative;
@@ -241,5 +239,37 @@ header{
 .img-card p{
     /* padding-top: 5px; */
     line-height: 15px;
-    
 }
+
+    /* run section styles
+    ================== */
+    .run-section-container{
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    }
+    .run-left{
+        width: 60%;
+        padding-left: 54px;
+    }
+    .run-left p{
+        line-height: 24px;
+    }
+    .run-left button{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .run-right{
+        width: 40%; 
+    }
+    .run-right img{
+        width: 100%;
+        border-radius: 18px;
+    }
+

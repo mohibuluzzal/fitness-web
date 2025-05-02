@@ -52,6 +52,28 @@
     .change-img-card-container{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* run section styles
+    ================== */
+    .run-section-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .run-left{
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .run-left button{
+        width: 80%;
+    }
+    .run-right{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+
 }
 
 /* for medium screen
@@ -94,6 +116,15 @@
     ===================== */
       .change-img-card-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+      /* run section styles
+    ================== */
+    .run-left{
+        width: 50%;
+    }
+    .run-right{
+        width: 50%; 
     }
    
 }
