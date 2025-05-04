@@ -10,8 +10,11 @@ body{
     padding: 0;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
-    max-width: 1200px;
     background-color: black;
+}
+.common-margin{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 :root{
     --text-14: 0.6rem;
@@ -200,7 +203,7 @@ header{
 #float-first{
     position: absolute;
     top: 40%;
-    right: 11%;
+    right: 12%;
 }
 #float-second{
     position: absolute;
@@ -252,7 +255,7 @@ header{
     padding: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid white;
+    margin: 0 auto;
     }
     .run-left{
         width: 60%;
@@ -273,3 +276,217 @@ header{
         border-radius: 18px;
     }
 
+    /* training section styles
+    ======================= */
+    .training-text-container{
+        line-height: 25px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .row-1, .row-2{
+        display: flex;
+    }
+    #img-card-1{
+        height: 256px;
+        width: 25%;
+        background-image: linear-gradient(rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
+        background-position: center;
+        background-size: cover;  
+    }
+    #img-card-1 p{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    #img-card-2{
+        height: 256px;
+        width: 50%;
+        background-image: linear-gradient(rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
+        background-position: center;
+        background-size: cover;
+    }
+    #img-card-2 p{
+        margin-left: 20px;
+    }
+    #img-card-3{
+        height: 256px;
+        width: 25%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
+        background-position: center;
+        background-size: cover;
+    }
+    #img-card-3 p{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    #img-card-4{
+        height: 256px;
+        width: 45%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/exercise4.png);
+        background-position: center;
+        background-size: cover;
+    }
+    #img-card-4 p{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    #img-card-5{
+        height: 256px;
+        width: 25%;
+        background-image: linear-gradient(rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #img-card-5 p{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    #img-card-6{
+        height: 256px;
+        width: 30%;
+        background-image: linear-gradient(rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #img-card-6 p{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    /* bmi section styles
+    =================== */
+    .bmi-text-container{
+        padding-left: 115px;
+        margin-bottom: 80px;
+    }
+    .bmi-container-box{
+        background: rgb(34, 34, 34);
+    }
+    .bmi-calculator{
+        display: flex;
+        gap: 175px;
+        padding-top: 25px;
+    }
+    .bmi-calculator-left{
+        width: 40%;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    tr{
+        text-align: left;
+    }
+    td, th{
+        border: 1px solid white;
+        padding: 15px 15px;
+    }
+    .bmi-calculator-right{
+        width: 60%;
+    }
+    input{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px 60px 12px 10px;
+        border: none;
+        margin-bottom: 12px;
+        margin-right: 8px;
+    }
+    input[type="text"] {
+    font-size: var(--text-18);
+   }
+   .bmi-inputs-row-1 select{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 43%;
+        padding: 12px 60px 12px 10px;
+        color: var(--text-rgba);
+        font-size: var(--text-18);
+        border: none;
+   }
+   select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 88%;
+    padding: 12px 60px 12px 10px;
+    color: var(--text-rgba);
+    font-size: var(--text-18);
+    border: none;
+}
+.bmi-calculator-right button{
+    margin-top: 34px;
+    margin-bottom: 52px;
+    width: 30%;
+   
+}
+
+/* meet team section styles
+======================== */
+.meet-text-content{
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 78px;
+}
+.meet-img-container{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.meet-img-card{
+    height: 272px;
+    border-radius: 18px;   
+}
+#trainer-card-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trainer-card-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trainer-card-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trainer-card-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trainer-card-5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trainer-card-6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meet-img-card h5{
+    margin-top: 180px;
+    margin-left: 20px;
+}
+.meet-img-card p{
+    margin-left: 20px;
+}
+
+/* footer section styles
+===================== */
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}

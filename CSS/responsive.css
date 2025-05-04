@@ -72,8 +72,83 @@
         text-align: center;
         margin: 0 auto;
     }
-    
 
+    /* training section styles
+    ======================= */
+    .training-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #img-card-1{
+        width: 50%; 
+    }
+    #img-card-2{
+        width: 50%;
+    }
+    #img-card-3{
+        display: none;
+    }
+    #img-card-4{
+        width: 45%;
+    }
+    #img-card-5{
+        width: 55%;
+    }
+    #img-card-6{
+       display: none;
+    }
+
+    /* bmi section styles
+    =================== */
+    .bmi-text-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bmi-calculator{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bmi-calculator-left{
+        width: 100%;
+    }
+    table{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .bmi-calculator-right{
+        width: 100%;
+    }
+    input{
+        width: 80%;
+    }
+    .bmi-inputs-row-1 select{
+        width: 93%;
+        margin-bottom: 15px;
+   }
+   select{
+    width: 93%;
+}
+.bmi-calculator-right button{
+    margin-top: 34px;
+    margin-bottom: 52px;
+    width: 30%;
+}
+/* meet team section styles
+======================== */
+.meet-team-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.meet-img-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+.foot{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+}
 }
 
 /* for medium screen
@@ -126,5 +201,26 @@
     .run-right{
         width: 50%; 
     }
-   
+    
+    /* bmi section styles
+    =================== */
+    .bmi-text-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bmi-calculator{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bmi-calculator-left{
+        width: 100%;
+    }
+    .bmi-calculator-right{
+        width: 100%;
+    }
+
+    /* footer section styles
+    ===================== */
+    
 }
