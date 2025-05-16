@@ -125,11 +125,41 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.ul-container{
+    list-style: none;
+    
+}
+ul{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    border: 1px solid  rgba(255, 255, 255, 0.2);
+    border-radius: 46px;
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    
+}
+#home-special{
+    background-color: #E6533C;
+    font-size: var(--text-18);
+    font-weight: var(--font-600);
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+}
+/* .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .nav-second{
     display: flex;
     gap: 47px;
     padding-right: 20px;
+    padding-bottom: 16px;
+    padding-top: 0px;
     align-items: center;
     list-style: none;
     box-sizing: border-box;
@@ -146,7 +176,7 @@ header{
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px 8px 20px;
-}
+} */
 
 /* get body section styles
 ======================= */
